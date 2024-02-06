@@ -11,4 +11,8 @@ jobs:
         run:
           node -v
           npm -v
+      - name: List-files
+        run:
+          pwd
+          ls -a
 
