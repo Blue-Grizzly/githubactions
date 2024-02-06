@@ -14,11 +14,9 @@ jobs:
         run: echo "${{ steps.greet.outputs.time }}"
       - name: List files before
         run:
-          pwd
           ls -a
       - name: clone
         uses: actions/checkout@master
       - name: List files after
         run:
-          pwd
           ls -a
